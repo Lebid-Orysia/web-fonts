@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px ;
+    margin: 0 auto;
+}
+
+header, main {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 48px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-transform: uppercase;
+    
+}
+.react__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-transform: none;
+}
+
+.sans__regular {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+h2 {
+    font-family: "Francois One", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 70px 0 40px 0;
+    letter-spacing: 4%;
+}
+
+sup {
+    font-family: "Farro", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.staatliches {
+    font-family: "Staatliches", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.tourney {
+    font-family: "Tourney", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.handling_paragraf {
+    margin-bottom: 40px;
+}
+.bgc__gray {
+    background-color: rgb(217, 217, 217);
+}
